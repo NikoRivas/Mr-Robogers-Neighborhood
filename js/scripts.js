@@ -1,22 +1,4 @@
-// function numList(num1) {
-//   const numArray = [];
-//   for (let i = 0; i <= num1; i++) [numArray.push(i)];
-//   return numArray;
-// }
-
-// function replaceNumber(num) {
-//   let numArray = numList(num);
-//   numArray.forEach(function (num1, i) {
-//     if (num1 === 3) {
-//       numArray[i] = "Won't you be my neighbor";
-//     } else if (num1 === 2) {
-//       numArray[i] = 'Boop!';
-//     } else if (num1 === 1) {
-//       numArray[i] = 'Beep!';
-//     }
-//   });
-//   console.log(numArray);
-// }
+//Business Logic
 
 function numList(num1) {
   const numArray = [];
@@ -38,3 +20,5 @@ function replaceNumber(num) {
   });
   console.log(numArray);
 }
+
+//UI Logic
