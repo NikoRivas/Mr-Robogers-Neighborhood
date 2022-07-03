@@ -1,19 +1,15 @@
 body {
   justify-content: center;
-  background-color: rgb(37, 50, 60);
-  color: antiquewhite;
-  border-radius: 5px;
+  background-color:saddlebrown;
+  color:black
+  border-radius: 2px;
 }
 
 #languageHeader {
-  font-family: 'Baumans', cursive;
+  font-family: 'Monoton', cursive;
   text-align: center;
-  color: rgb(37, 50, 60);
-  padding: 20px;
-}
-
-.form-group:hover {
-  color: rgb(173, 201, 220);
+  color: rgb(72, 10, 18);
+  padding: 5px;
 }
 
 .center {
@@ -22,3 +18,4 @@ body {
   margin-right: auto;
   width: 50%;
 }
+
