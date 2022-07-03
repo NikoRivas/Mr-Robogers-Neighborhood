@@ -31,7 +31,7 @@ Expected Output: "Won't you be my neighbor" \_
 
 ## Setup/Installation Requirements
 
-- _visit this page to load: https://github.com/NikoRivas/language-selector.git_
+- _visit this page to load: https://github.com/NikoRivas/Mr-Robogers-Neighborhood.git_
   _To use locally, clone this repository._
   _Then, launch html in your browser._
 
