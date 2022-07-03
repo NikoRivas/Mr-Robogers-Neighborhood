@@ -34,6 +34,7 @@ Expected Output: "Won't you be my neighbor" \_
 - _visit this page to load: https://github.com/NikoRivas/Mr-Robogers-Neighborhood.git_
   _To use locally, clone this repository._
   _Then, launch html in your browser._
+  _You can also load this URL into your browser: https://nikorivas.github.io/Mr-Robogers-Neighborhood/_
 
 ## Known Bugs
 
