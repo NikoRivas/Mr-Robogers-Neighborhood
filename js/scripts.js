@@ -1,3 +1,23 @@
+// function numList(num1) {
+//   const numArray = [];
+//   for (let i = 0; i <= num1; i++) [numArray.push(i)];
+//   return numArray;
+// }
+
+// function replaceNumber(num) {
+//   let numArray = numList(num);
+//   numArray.forEach(function (num1, i) {
+//     if (num1 === 3) {
+//       numArray[i] = "Won't you be my neighbor";
+//     } else if (num1 === 2) {
+//       numArray[i] = 'Boop!';
+//     } else if (num1 === 1) {
+//       numArray[i] = 'Beep!';
+//     }
+//   });
+//   console.log(numArray);
+// }
+
 function numList(num1) {
   const numArray = [];
   for (let i = 0; i <= num1; i++) [numArray.push(i)];
@@ -7,11 +27,12 @@ function numList(num1) {
 function replaceNumber(num) {
   let numArray = numList(num);
   numArray.forEach(function (num1, i) {
-    if (num1 === 3) {
+    const numString = num1.toString();
+    if (numString.match(/3/)) {
       numArray[i] = "Won't you be my neighbor";
-    } else if (num1 === 2) {
+    } else if (numString.match(/2/)) {
       numArray[i] = 'Boop!';
-    } else if (num1 === 1) {
+    } else if (numString.match(/1/)) {
       numArray[i] = 'Beep!';
     }
   });
