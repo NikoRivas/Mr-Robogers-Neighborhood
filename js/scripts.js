@@ -18,7 +18,28 @@ function replaceNumber(num) {
       numArray[i] = 'Beep!';
     }
   });
-  console.log(numArray);
+  return numArray.toString();
 }
 
 //UI Logic
+window.onload = function () {
+  let answer = document.getElementById('answer');
+  answer.style.display = 'none';
+  let resetBtn = document.getElementById('reset');
+  resetBtn.style.display = 'none';
+  resetBtn.onclick = function () {
+    location.reload();
+  };
+
+  let form = document.querySelector('form');
+  form.onsubmit = function (event) {
+    answer.style.display = 'block';
+    form.style.display = 'none';
+    resetBtn.removeAttribute('style');
+    const userNumber = document.getElementById('userNumber').value;
+    const finalResults = replaceNumber(userNumber);
+    // replaceNumber(userNumber);
+    document.getElementById('finalResult').innerText = finalResults;
+    event.preventDefault();
+  };
+};
