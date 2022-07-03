@@ -38,7 +38,6 @@ window.onload = function () {
     resetBtn.removeAttribute('style');
     const userNumber = document.getElementById('userNumber').value;
     const finalResults = replaceNumber(userNumber);
-    // replaceNumber(userNumber);
     document.getElementById('finalResult').innerText = finalResults;
     event.preventDefault();
   };
