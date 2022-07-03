@@ -7,7 +7,11 @@ function numList(num1) {
 function replaceNumber(num) {
   let numArray = numList(num);
   numArray.forEach(function (num1, i) {
-    if (num1 === 3) numArray[i] = "Won't you be my neighbor";
+    if (num1 === 3) {
+      numArray[i] = "Won't you be my neighbor";
+    } else if (num1 === 2) {
+      numArray[i] = 'Boop!';
+    }
   });
   console.log(numArray);
 }
