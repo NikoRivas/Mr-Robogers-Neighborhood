@@ -11,6 +11,8 @@ function replaceNumber(num) {
       numArray[i] = "Won't you be my neighbor";
     } else if (num1 === 2) {
       numArray[i] = 'Boop!';
+    } else if (num1 === 1) {
+      numArray[i] = 'Beep!';
     }
   });
   console.log(numArray);
